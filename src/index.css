@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  background-color: #282D35;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+nav img {
+  margin-right: 7px;
+  height: 30px;
+}
+
+.nav-title {
+  color: #61DAFB;
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+.nav-text {
+  color: white;
+}
+
+
+.main-content {
+  padding: 200px;
+}
+
+.main-title {
+  color: white;
+  font-size: 3rem;
+}
+
+.main-list {
+  color: white;
+  font-size: 1.3rem;
+  line-height: 3rem;
+}
+
+.main--facts li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
